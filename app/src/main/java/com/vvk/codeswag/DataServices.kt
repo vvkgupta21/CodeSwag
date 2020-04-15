@@ -5,17 +5,17 @@ import com.vvk.codeswag.Model.Product
 
 object DataServices {
     val Categories = listOf(
-        Category("SHIRT", "SHIRTIMAGE"),
-        Category("HATS","HATSIMAGE"),
-        Category("HOODIE","HOODIEIMAGE"),
-        Category("DIGITAL","DIGITALGOODSIMAGE")
+        Category("SHIRT", "shirtimage"),
+        Category("HATS","hatimage"),
+        Category("HOODIE","hoodieimage"),
+        Category("DIGITAL","digitalgoodsimage")
     )
 
     val hats = listOf(
         Product("vvk graphic beeniw","$10","hat01"),
         Product("vvk hot black","$12","hat02"),
         Product("vvk hot white","$34","hat03"),
-        Product("vvk hotu white","$32","hat04")
+        Product("vvk hot white","$32","hat04")
     )
 
     val shirt = listOf(
