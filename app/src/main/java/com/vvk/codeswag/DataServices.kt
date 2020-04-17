@@ -4,7 +4,15 @@ import com.vvk.codeswag.Model.Category
 import com.vvk.codeswag.Model.Product
 
 object DataServices {
-    val Categories = listOf(
+    val categories = listOf(
+        Category("SHIRT", "shirtimage"),
+        Category("HATS","hatimage"),
+        Category("HOODIE","hoodieimage"),
+        Category("DIGITAL","digitalgoodsimage"),
+        Category("SHIRT", "shirtimage"),
+        Category("HATS","hatimage"),
+        Category("HOODIE","hoodieimage"),
+        Category("DIGITAL","digitalgoodsimage"),
         Category("SHIRT", "shirtimage"),
         Category("HATS","hatimage"),
         Category("HOODIE","hoodieimage"),
